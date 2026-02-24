@@ -1,6 +1,6 @@
 console.log("hello world");  //this will show in console
 document.write("hello world");  //this will show on scrren
-        var num=10;
+        /*var num=10;
         console.log(num);
         console.log(typeof(num));
         num=false;
@@ -8,4 +8,15 @@ document.write("hello world");  //this will show on scrren
         num="rahul";
         console.log(typeof(num));
         num=undefined;
-        console.log(typeof(num));
+        console.log(typeof(num)); */
+
+        const sym1=Symbol(4)
+        console.log(sym1);
+        const sym2=Symbol(3);
+        console.log(sym2);
+        if(sym1==sym2){
+            console.log("true");
+        }
+        else{
+            console.log("false");
+        }

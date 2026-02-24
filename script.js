@@ -1,6 +1,6 @@
 console.log("hello world");  //this will show in console
 document.write("hello world");  //this will show on scrren
-        /*var num=10;
+        var num=10;
         console.log(num);
         console.log(typeof(num));
         num=false;
@@ -8,7 +8,7 @@ document.write("hello world");  //this will show on scrren
         num="rahul";
         console.log(typeof(num));
         num=undefined;
-        console.log(typeof(num)); */
+        console.log(typeof(num)); 
 
         const sym1=Symbol(4)
         console.log(sym1);
@@ -20,3 +20,15 @@ document.write("hello world");  //this will show on scrren
         else{
             console.log("false");
         }
+
+        var i;
+        for(i=0;i<3;i=i+1){
+            console.log(i);
+        }
+
+        var count;
+        document.write("starting loop"+"<br/>");
+        for(count=0;count<10;count++){
+            document.write("current count:"+count);
+        }
+        document.write("ending loop");
